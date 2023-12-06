@@ -4,12 +4,12 @@ Welcome to the GitHub page of DeepTrackAI's Particle dataset. The Particle datas
 
 ## Description
 
-The Particle dataset contains 2 movies in avi format. Each image is a grayscale picture of a digit, and the associated label is the digit value (from 0 to 9).
+The Particle dataset contains 2 movies in avi format. Each frame is an RGB picture of a trapped spherical particle.
 
 - **Dataset Size**: 2 movies
-- **Frame Number**: frames per movie
-- **Frame Size**: 28x28 pixels
-- **Color**: Grayscale
+- **Number of Frames**: 100 frames per movie
+- **Frame Size**: 120x120 pixels
+- **Color**: RGB
 
 ## Usage
 
@@ -24,8 +24,8 @@ To use the Particle dataset in your project:
 To clone the repository and access the Particle dataset:
 
 ```bash
-git clone -b mnist github.com/DeepTrackAI/Particle_deeplay
-cd Particle_deeplay
+git clone https://github.com/DeepTrackAI/particle_dataset
+cd particle_dataset
 ```
 
 ### Download Programmatically in Python
@@ -38,7 +38,7 @@ from io import BytesIO
 from zipfile import ZipFile
 
 # URL to the repository (modify this if the dataset is hosted in a specific location or file)
-DATASET_URL = 'https://github.com/DeepTrackAI/Particle_dataset/raw/main/mnist.zip'
+DATASET_URL = 'https://github.com/DeepTrackAI/particle_dataset/raw/main/mnist.zip'
 
 response = requests.get(DATASET_URL)
 with ZipFile(BytesIO(response.content)) as z:
