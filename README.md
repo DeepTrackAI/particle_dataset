@@ -51,6 +51,22 @@ with ZipFile(BytesIO(response.content)) as z:
 
 The Particle dataset was originally created by Saga Helgadottir, Aykut Argun & Giovanni Volpe.
 
+If you use this dataset, please cite:
+
+<https://doi.org/10.1364/OPTICA.6.000506>:
+```
+Saga Helgadottir, Aykut Argun, and Giovanni Volpe.
+"Digital video microscopy enhanced by deep learning."
+Optica 6.4 (2019): 506-513.
+```
+
+```
+Benjamin Midtvedt, Saga Helgadottir, Aykut Argun, Jesús Pineda, Daniel Midtvedt, Giovanni Volpe.
+"Quantitative Digital Microscopy with Deep Learning."
+Applied Physics Reviews 8 (2021), 011310.
+https://doi.org/10.1063/5.0034891
+```
+
 ## License
 
 The Particle dataset is made available under the terms of the [Creative Commons Attribution-Share Alike 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/).
