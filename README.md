@@ -49,7 +49,7 @@ with ZipFile(BytesIO(response.content)) as z:
 
 ## Acknowledgements
 
-- The Particle dataset was originally created by ?????.
+The Particle dataset was originally created by Saga Helgadottir, Aykut Argun & Giovanni Volpe.
 
 ## License
 
