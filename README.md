@@ -1,76 +1,74 @@
-# Particle Dataset
+# Particle Dataset (particle_dataset)
 
-Welcome to the GitHub page of DeepTrackAI's Particle dataset. The Particle dataset is a collection of movies of optically-trapped particles used for training and evaluating deep learning models.
+## Overview
 
-## Description
+This DeepTrackAI repository contains two short videos of an optically trapped microscopic particle undergoing Brownian motion. The dataset was published in 
+[Helgadottir et al., Optica, 2019](https://doi.org/10.1364/OPTICA.6.000506). 
+One video is acquired with **low noise** (`low_noise.avi`), and the other with **high noise** (`high_noise.avi`). In both cases, the particle jiggles around the center of the frame due to thermal motion. 
 
-The Particle dataset contains 2 movies in avi format. Each frame is an RGB picture of a trapped spherical particle.
+---
 
-- **Dataset Size**: 2 movies
-- **Number of Frames**: 100 frames per movie
-- **Frame Size**: 120x120 pixels
-- **Color**: RGB
+## Summary
 
-## Usage
+- **Number of videos**: 2 (`low_noise.avi`, `high_noise.avi`)  
+- **Frames per video**: 100  
+- **Frame size**: 120×120 pixels  
+- **Color**: RGB  
+- **Format**: AVI  
 
-To use the Particle dataset in your project:
+---
 
-1. Clone this repository to your local machine.
-2. Import the dataset into your machine learning framework of choice.
-3. Train or evaluate your models using the dataset.
+## Original Source
 
-### Download via Command Line
+- **Title:** Digital video microscopy enhanced by deep learning  
+- **Authors:** Saga Helgadottir, Aykut Argun, Giovanni Volpe  
+- **Journal:** Optica, 6(4): 506–513 (2019)  
+- **DOI:** [10.1364/OPTICA.6.000506](https://doi.org/10.1364/OPTICA.6.000506)
 
-To clone the repository and access the Particle dataset:
+If you use this dataset in your research, please follow the licensing requirements and properly attribute the original authors.
 
+---
+
+## Dataset Structure
+
+```bash
+/particle_dataset  
+├── low_noise.avi     # Low-noise video of trapped particle (100 frames)  
+└── high_noise.avi    # High-noise video of trapped particle (100 frames)
+```
+
+---
+
+## How to Access the Data
+
+### Clone the Repository
 ```bash
 git clone https://github.com/DeepTrackAI/particle_dataset
 cd particle_dataset
 ```
 
-### Download Programmatically in Python
+---
 
-If you want to load the dataset directly into a Python script or Jupyter notebook:
+## Attribution
 
-```python
-import requests
-from io import BytesIO
-from zipfile import ZipFile
+### Cite the original paper:
+Helgadottir S, Argun A, Volpe G. *Digital video microscopy enhanced by deep learning.* Optica, 6(4): 506–513 (2019). [https://doi.org/10.1364/OPTICA.6.000506](https://doi.org/10.1364/OPTICA.6.000506)
 
-# URL to the repository (modify this if the dataset is hosted in a specific location or file)
-DATASET_URL = 'https://github.com/DeepTrackAI/particle_dataset/raw/main/mnist.zip'
-
-response = requests.get(DATASET_URL)
-with ZipFile(BytesIO(response.content)) as z:
-    z.extractall()
-
-# Now you can load the dataset using your preferred library, e.g., deeplay, PyTorch, TensorFlow.
+```bibtex
+@article{helgadottir2019digital,
+  title={Digital video microscopy enhanced by deep learning},
+  author={Helgadottir, Saga and Argun, Aykut and Volpe, Giovanni},
+  journal={Optica},
+  volume={6},
+  number={4},
+  pages={506--513},
+  year={2019},
+  publisher={Optica Publishing Group}
+}
 ```
 
-## Acknowledgements
-
-The Particle dataset was originally created by Saga Helgadottir, Aykut Argun & Giovanni Volpe.
-
-If you use this dataset, please cite:
-
-<https://doi.org/10.1364/OPTICA.6.000506>:
-```
-Saga Helgadottir, Aykut Argun, and Giovanni Volpe.
-"Digital video microscopy enhanced by deep learning."
-Optica 6.4 (2019): 506-513.
-```
-
-```
-Benjamin Midtvedt, Saga Helgadottir, Aykut Argun, Jesús Pineda, Daniel Midtvedt, Giovanni Volpe.
-"Quantitative Digital Microscopy with Deep Learning."
-Applied Physics Reviews 8 (2021), 011310.
-https://doi.org/10.1063/5.0034891
-```
+---
 
 ## License
 
-The Particle dataset is made available under the terms of the [Creative Commons Attribution-Share Alike 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/).
-
-## Contributing
-
-If you find any issues with the dataset or have suggestions for improvements, please open an issue or submit a pull request.
+This dataset is shared under the **Creative Commons Attribution-Share Alike 3.0** License, following the original licensing terms.
