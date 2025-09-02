@@ -16,10 +16,11 @@ One video is acquired with **low noise** (`low_noise.avi`), and the other with *
 
 ## Original Source
 
-- **Title:** Digital video microscopy enhanced by deep learning  
-- **Authors:** Saga Helgadottir, Aykut Argun, Giovanni Volpe  
-- **Journal:** Optica, 6(4): 506–513 (2019)  
-- **DOI:** [10.1364/OPTICA.6.000506](https://doi.org/10.1364/OPTICA.6.000506)
+- **Title**: Particle tracking dataset
+- **Authors**: Saga Helgadottir, Aykut Argun, Giovanni Volpe
+- **Source**: This repository  
+- **Reference**: Helgadottir S., Argun A., Volpe G. *Optica* 6(4): 506–513 (2019). [DOI: 10.1364/OPTICA.6.000506](https://doi.org/10.1364/OPTICA.6.000506)  
+- **License**: [Creative Commons Attribution-ShareAlike 3.0 (CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/)
 
 If you use this dataset in your research, please follow the licensing requirements and properly attribute the original authors.
 
