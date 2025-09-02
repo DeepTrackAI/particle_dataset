@@ -2,19 +2,15 @@
 
 ## Overview
 
-This DeepTrackAI repository contains two short videos of an optically trapped microscopic particle undergoing Brownian motion. The dataset was published in 
-[Helgadottir et al., Optica, 2019](https://doi.org/10.1364/OPTICA.6.000506). 
-One video is acquired with **low noise** (`low_noise.avi`), and the other with **high noise** (`high_noise.avi`). In both cases, the particle jiggles around the center of the frame due to thermal motion. 
+This DeepTrackAI repository contains two short videos of an optically trapped microscopic particle undergoing Brownian motion in the optical potential. The dataset was published in [Helgadottir et al., Optica, 2019](https://doi.org/10.1364/OPTICA.6.000506). 
 
----
+One video is acquired with **low noise** (`low_noise.avi`), and the other with **high noise** (`high_noise.avi`). In both cases, the particle jiggles around the center of the frame due to thermal motion.
 
-## Summary
-
+### Summary
 - **Number of videos**: 2 (`low_noise.avi`, `high_noise.avi`)  
 - **Frames per video**: 100  
-- **Frame size**: 120×120 pixels  
-- **Color**: RGB  
-- **Format**: AVI  
+- **Image size**: 120 × 120 pixels  
+- **Video format**: 8-bit RGB AVI  
 
 ---
 
