@@ -19,8 +19,8 @@ One video is acquired with **low noise** (`low_noise.avi`), and the other with *
 - **Title**: Particle tracking dataset
 - **Authors**: Saga Helgadottir, Aykut Argun, Giovanni Volpe
 - **Source**: This repository  
-- **Reference**: Helgadottir S., Argun A., Volpe G. *Optica* 6(4): 506–513 (2019). [DOI: 10.1364/OPTICA.6.000506](https://doi.org/10.1364/OPTICA.6.000506)  
-- **License**: [Creative Commons Attribution-ShareAlike 3.0 (CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/)
+- **Reference article**: Helgadottir S., Argun A., Volpe G. *Optica* 6(4): 506–513 (2019). [DOI: 10.1364/OPTICA.6.000506](https://doi.org/10.1364/OPTICA.6.000506)  
+- **License**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 If you use this dataset in your research, please follow the licensing requirements and properly attribute the original authors.
 
@@ -48,7 +48,9 @@ cd particle_dataset
 
 ## Attribution
 
-### Cite the original paper:
+If you use this dataset, please cite the reference article.
+
+### Cite the reference article:
 Helgadottir S, Argun A, Volpe G. *Digital video microscopy enhanced by deep learning.* Optica, 6(4): 506–513 (2019). [https://doi.org/10.1364/OPTICA.6.000506](https://doi.org/10.1364/OPTICA.6.000506)
 
 ```bibtex
@@ -68,4 +70,4 @@ Helgadottir S, Argun A, Volpe G. *Digital video microscopy enhanced by deep lear
 
 ## License
 
-This dataset is shared under the **Creative Commons Attribution-Share Alike 3.0** License, following the original licensing terms.
+This dataset is shared under the [Creative Commons Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/).
