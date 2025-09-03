@@ -62,7 +62,8 @@ Helgadottir S, Argun A, Volpe G. *Digital video microscopy enhanced by deep lear
   number={4},
   pages={506--513},
   year={2019},
-  publisher={Optica Publishing Group}
+  publisher={Optica Publishing Group},
+  doi={10.1364/OPTICA.6.000506}
 }
 ```
 
