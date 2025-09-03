@@ -30,8 +30,8 @@ If you use this dataset in your research, please follow the licensing requiremen
 
 ```bash
 /particle_dataset  
-├── low_noise.avi     # Low-noise video of trapped particle (100 frames)  
-└── high_noise.avi    # High-noise video of trapped particle (100 frames)
+├── low_noise.avi     # Low-noise video of trapped particle
+└── high_noise.avi    # High-noise video of trapped particle
 ```
 
 ---
